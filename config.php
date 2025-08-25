@@ -13,15 +13,15 @@ $GLOBALS['DEBUG'] = false; // Developer option.
 
 // Replace 'YOUR_API_KEY' with your TMDb API key - https://www.themoviedb.org/
 //Entering your key here may be visible through google drive. Check your sharing settings.
-$apiKey = '';
+$apiKey = 'b5509c66362c4638e235a16aef8ef33d';
 
 // Replace this with your Real-Debrid Private API token - https://real-debrid.com/apitoken
 // Don't worry about this setting if you aren't planning on using Real Debrid.
-$PRIVATE_TOKEN = '';
+$PRIVATE_TOKEN = '4CPM63VKRNQFYHLS7TC3T4V6D3BS2AWRICHGLXQTQVYTZITTIB4Q';
 
 // Replace this with your Premiumize Private API token - https://www.premiumize.me/account
 // Don't worry about this setting if you aren't planning on using Premiumize.
-$premiumizeApiKey = '';
+$premiumizeApiKey = '3ahygjucktf87qcu';
 
 // By default, on a local network the server identifies as "localhost" or "127.0.0.1" which isn't
 // accessible from other devices in your local network. Set this if you're running the script on
@@ -63,12 +63,12 @@ $movies_with_origin_country = 'US'; // TMDB search setting (with_origin_country)
 // Leave this setting as false if you aren't intending on using Real-Debrid links.
 // set it to true if you want to use realdebrid when streaming torrents. 
 // Example: The value can be either true or false.
-$useRealDebrid = false; // Requires a real debrid private token added above.
+$useRealDebrid = true; // Requires a real debrid private token added above.
 
 // Leave this setting as false if you aren't intending on using Premiumize links.
 // set it to true if you want to use premiumize when streaming torrents. 
 // Example: The value can be either true or false.
-$usePremiumize = false; // Requires a Premiumize API Key added above.
+$usePremiumize = true; // Requires a Premiumize API Key added above.
 
 // maxResolution is the upper limit for video resolution preference in
 // pixels (e.g., 1080 for 1080p). If no links match this exact resolution,
@@ -265,4 +265,5 @@ function accessLog() {
 }
 
  
+
 ?>
